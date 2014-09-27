@@ -67,12 +67,9 @@
 		1052E90919D774C60051D21F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1052E90C19D779D40051D21F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework"; sourceTree = SOURCE_ROOT; };
 		1052E90F19D779E30051D21F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
-<<<<<<< HEAD
 		1052E91219D77E620051D21F /* FDT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDT-Bridging-Header.h"; sourceTree = "<group>"; };
 		1052E91319D77E620051D21F /* FDTTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDTTests-Bridging-Header.h"; sourceTree = "<group>"; };
-=======
 		49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
->>>>>>> 97617f32bb62a891b45ab197a1763a4a7211293b
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
