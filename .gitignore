@@ -1,0 +1,22 @@
+*~
+*.out
+*.swp
+*.DS_Store
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.class
+*.pyc
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+CIS182/codes/t.java
+ENV
