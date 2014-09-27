@@ -15,11 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+<<<<<<< HEAD
         
         FBLoginView.self
         FBProfilePictureView.self
-        GMSServices.provideAPIKey("AIzaSyBP4cCYCVrhhF-MxhbxtL1G8sI3Esm5HFw")
 
+=======
+        GMSServices.provideAPIKey("AIzaSyBP4cCYCVrhhF-MxhbxtL1G8sI3Esm5HFw")
+        // Override point for customization after application launch.
+>>>>>>> 0a89a4a8a476617a3a999b4242877f0d5f06b111
         return true
     }
     
