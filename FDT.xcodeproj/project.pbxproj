@@ -68,6 +68,7 @@
 		1052E90C19D779D40051D21F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework"; sourceTree = SOURCE_ROOT; };
 		1052E90F19D779E30051D21F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
 		49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
+		49D17AF119D7809B00F33CD0 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 				49A07C8D19D76D86001A39B7 /* Frameworks */,
 				1052E8CD19D766A60051D21F /* AppDelegate.swift */,
 				1052E8CF19D766A60051D21F /* ViewController.swift */,
+				49D17AF119D7809B00F33CD0 /* Bridge-Header.h */,
 				1052E8D119D766A60051D21F /* Main.storyboard */,
 				1052E8D419D766A60051D21F /* Images.xcassets */,
 				1052E8D619D766A60051D21F /* LaunchScreen.xib */,
@@ -418,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -435,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/Bridge-Header.h";
 			};
 			name = Release;
 		};
