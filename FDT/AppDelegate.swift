@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
+        GMSServices.provideAPIKey("AIzaSyBP4cCYCVrhhF-MxhbxtL1G8sI3Esm5HFw")
         FBLoginView.self
         FBProfilePictureView.self
 
