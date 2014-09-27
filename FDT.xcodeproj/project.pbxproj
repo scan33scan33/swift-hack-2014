@@ -29,6 +29,7 @@
 		1052E90E19D779D40051D21F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90C19D779D40051D21F /* GoogleMaps.framework */; };
 		1052E91019D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
 		1052E91119D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
+		49D17AF019D77FDC00F33CD0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +67,12 @@
 		1052E90919D774C60051D21F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1052E90C19D779D40051D21F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework"; sourceTree = SOURCE_ROOT; };
 		1052E90F19D779E30051D21F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
+<<<<<<< HEAD
 		1052E91219D77E620051D21F /* FDT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDT-Bridging-Header.h"; sourceTree = "<group>"; };
 		1052E91319D77E620051D21F /* FDTTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDTTests-Bridging-Header.h"; sourceTree = "<group>"; };
+=======
+		49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
+>>>>>>> 97617f32bb62a891b45ab197a1763a4a7211293b
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 				1052E8F819D7746F0051D21F /* CoreLocation.framework in Frameworks */,
 				1052E8F619D774650051D21F /* CoreData.framework in Frameworks */,
 				1052E8F419D7744C0051D21F /* AVFoundation.framework in Frameworks */,
+				49D17AF019D77FDC00F33CD0 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +171,7 @@
 		49A07C8D19D76D86001A39B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */,
 				1052E90C19D779D40051D21F /* GoogleMaps.framework */,
 				1052E90919D774C60051D21F /* SystemConfiguration.framework */,
 				1052E90719D774BD0051D21F /* QuartzCore.framework */,
@@ -413,6 +420,7 @@
 					"$(inherited)",
 					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
 					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib",
 				);
 				INFOPLIST_FILE = FDT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +440,7 @@
 					"$(inherited)",
 					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
 					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib",
 				);
 				INFOPLIST_FILE = FDT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
