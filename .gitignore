@@ -18,5 +18,10 @@
 *.la
 *.a
 
+
+FDT.xcodeproj/project.xcworkspace/*
+FDT.xcodeproj/xcuserdata/*
+
+
 CIS182/codes/t.java
 ENV
