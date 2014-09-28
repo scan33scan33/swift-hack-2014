@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -44,12 +44,19 @@
                                     <segue destination="V9J-Rl-anG" kind="presentation" id="AMm-az-qbA"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bVw-vb-qvg" customClass="FBLoginView">
+                                <rect key="frame" x="95" y="326" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.4521030913119275" green="0.60767500691892873" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="6uB-MW-QI1" secondAttribute="centerX" id="Ave-kn-D4A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fbLoginView" destination="bVw-vb-qvg" id="6fZ-o0-39U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,6 +148,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vn-Wv-TUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="686" y="57"/>
+        </scene>
+        <!--Google Map View Controller-->
+        <scene sceneID="D7J-9B-hB4">
+            <objects>
+                <viewController id="vE8-hn-cx3" customClass="GoogleMapViewController" customModule="FDT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e7B-tu-tOM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tzX-Fe-ghn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kkV-5Q-6ue">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bx6-X0-5zD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>

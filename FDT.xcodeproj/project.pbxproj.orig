@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1052E8CE19D766A60051D21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8CD19D766A60051D21F /* AppDelegate.swift */; };
+		1052E8D019D766A60051D21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8CF19D766A60051D21F /* ViewController.swift */; };
+		1052E8D319D766A60051D21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D119D766A60051D21F /* Main.storyboard */; };
+		1052E8D519D766A60051D21F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D419D766A60051D21F /* Images.xcassets */; };
+		1052E8D819D766A60051D21F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D619D766A60051D21F /* LaunchScreen.xib */; };
+		1052E8E419D766A60051D21F /* FDTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8E319D766A60051D21F /* FDTTests.swift */; };
+		1052E8F419D7744C0051D21F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8F319D7744C0051D21F /* AVFoundation.framework */; };
+		1052E8F619D774650051D21F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8F519D774650051D21F /* CoreData.framework */; };
+		1052E8F819D7746F0051D21F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8F719D7746F0051D21F /* CoreLocation.framework */; };
+		1052E8FA19D774770051D21F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8F919D774770051D21F /* CoreText.framework */; };
+		1052E8FC19D774800051D21F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8FB19D774800051D21F /* GLKit.framework */; };
+		1052E8FE19D774890051D21F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8FD19D774890051D21F /* ImageIO.framework */; };
+		1052E90019D7749A0051D21F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E8FF19D7749A0051D21F /* libc++.dylib */; };
+		1052E90219D774A00051D21F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90119D774A00051D21F /* libicucore.dylib */; };
+		1052E90419D774A90051D21F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90319D774A90051D21F /* libz.dylib */; };
+		1052E90619D774B00051D21F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90519D774B00051D21F /* OpenGLES.framework */; };
+		1052E90819D774BD0051D21F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90719D774BD0051D21F /* QuartzCore.framework */; };
+		1052E90A19D774C60051D21F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90919D774C60051D21F /* SystemConfiguration.framework */; };
+		1052E90D19D779D40051D21F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90C19D779D40051D21F /* GoogleMaps.framework */; };
+		1052E90E19D779D40051D21F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90C19D779D40051D21F /* GoogleMaps.framework */; };
+		1052E91019D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
+		1052E91119D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
+		49D17AF019D77FDC00F33CD0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1052E8DE19D766A60051D21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1052E8C019D766A60051D21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1052E8C719D766A60051D21F;
+			remoteInfo = FDT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1052E8C819D766A60051D21F /* FDT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1052E8CC19D766A60051D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1052E8CD19D766A60051D21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1052E8CF19D766A60051D21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1052E8D219D766A60051D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1052E8D419D766A60051D21F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1052E8D719D766A60051D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1052E8DD19D766A60051D21F /* FDTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1052E8E219D766A60051D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1052E8E319D766A60051D21F /* FDTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTTests.swift; sourceTree = "<group>"; };
+		1052E8F319D7744C0051D21F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1052E8F519D774650051D21F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1052E8F719D7746F0051D21F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1052E8F919D774770051D21F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1052E8FB19D774800051D21F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1052E8FD19D774890051D21F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1052E8FF19D7749A0051D21F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1052E90119D774A00051D21F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		1052E90319D774A90051D21F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1052E90519D774B00051D21F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1052E90719D774BD0051D21F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1052E90919D774C60051D21F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1052E90C19D779D40051D21F /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework"; sourceTree = SOURCE_ROOT; };
+		1052E90F19D779E30051D21F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
+		1052E91219D77E620051D21F /* FDT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDT-Bridging-Header.h"; sourceTree = "<group>"; };
+		1052E91319D77E620051D21F /* FDTTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDTTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
+		49D17AF119D7809B00F33CD0 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1052E8C519D766A60051D21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E90A19D774C60051D21F /* SystemConfiguration.framework in Frameworks */,
+				1052E90819D774BD0051D21F /* QuartzCore.framework in Frameworks */,
+				1052E90619D774B00051D21F /* OpenGLES.framework in Frameworks */,
+				1052E90419D774A90051D21F /* libz.dylib in Frameworks */,
+				1052E90219D774A00051D21F /* libicucore.dylib in Frameworks */,
+				1052E90019D7749A0051D21F /* libc++.dylib in Frameworks */,
+				1052E8FE19D774890051D21F /* ImageIO.framework in Frameworks */,
+				1052E8FC19D774800051D21F /* GLKit.framework in Frameworks */,
+				1052E8FA19D774770051D21F /* CoreText.framework in Frameworks */,
+				1052E90D19D779D40051D21F /* GoogleMaps.framework in Frameworks */,
+				1052E8F819D7746F0051D21F /* CoreLocation.framework in Frameworks */,
+				1052E8F619D774650051D21F /* CoreData.framework in Frameworks */,
+				1052E8F419D7744C0051D21F /* AVFoundation.framework in Frameworks */,
+				49D17AF019D77FDC00F33CD0 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1052E8DA19D766A60051D21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E90E19D779D40051D21F /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1052E8BF19D766A60051D21F = {
+			isa = PBXGroup;
+			children = (
+				1052E8CA19D766A60051D21F /* FDT */,
+				1052E8E019D766A60051D21F /* FDTTests */,
+				1052E8C919D766A60051D21F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1052E8C919D766A60051D21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1052E8C819D766A60051D21F /* FDT.app */,
+				1052E8DD19D766A60051D21F /* FDTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1052E8CA19D766A60051D21F /* FDT */ = {
+			isa = PBXGroup;
+			children = (
+				1052E90F19D779E30051D21F /* GoogleMaps.bundle */,
+				49A07C8D19D76D86001A39B7 /* Frameworks */,
+				1052E8CD19D766A60051D21F /* AppDelegate.swift */,
+				1052E8CF19D766A60051D21F /* ViewController.swift */,
+				49D17AF119D7809B00F33CD0 /* Bridge-Header.h */,
+				1052E8D119D766A60051D21F /* Main.storyboard */,
+				1052E8D419D766A60051D21F /* Images.xcassets */,
+				1052E8D619D766A60051D21F /* LaunchScreen.xib */,
+				1052E8CB19D766A60051D21F /* Supporting Files */,
+				1052E91219D77E620051D21F /* FDT-Bridging-Header.h */,
+				1052E91319D77E620051D21F /* FDTTests-Bridging-Header.h */,
+			);
+			path = FDT;
+			sourceTree = "<group>";
+		};
+		1052E8CB19D766A60051D21F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1052E8CC19D766A60051D21F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1052E8E019D766A60051D21F /* FDTTests */ = {
+			isa = PBXGroup;
+			children = (
+				1052E8E319D766A60051D21F /* FDTTests.swift */,
+				1052E8E119D766A60051D21F /* Supporting Files */,
+			);
+			path = FDTTests;
+			sourceTree = "<group>";
+		};
+		1052E8E119D766A60051D21F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1052E8E219D766A60051D21F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A07C8D19D76D86001A39B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */,
+				1052E90C19D779D40051D21F /* GoogleMaps.framework */,
+				1052E90919D774C60051D21F /* SystemConfiguration.framework */,
+				1052E90719D774BD0051D21F /* QuartzCore.framework */,
+				1052E90519D774B00051D21F /* OpenGLES.framework */,
+				1052E90319D774A90051D21F /* libz.dylib */,
+				1052E90119D774A00051D21F /* libicucore.dylib */,
+				1052E8FF19D7749A0051D21F /* libc++.dylib */,
+				1052E8FD19D774890051D21F /* ImageIO.framework */,
+				1052E8FB19D774800051D21F /* GLKit.framework */,
+				1052E8F919D774770051D21F /* CoreText.framework */,
+				1052E8F719D7746F0051D21F /* CoreLocation.framework */,
+				1052E8F519D774650051D21F /* CoreData.framework */,
+				1052E8F319D7744C0051D21F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1052E8C719D766A60051D21F /* FDT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1052E8E719D766A60051D21F /* Build configuration list for PBXNativeTarget "FDT" */;
+			buildPhases = (
+				1052E8C419D766A60051D21F /* Sources */,
+				1052E8C519D766A60051D21F /* Frameworks */,
+				1052E8C619D766A60051D21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDT;
+			productName = FDT;
+			productReference = 1052E8C819D766A60051D21F /* FDT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1052E8DC19D766A60051D21F /* FDTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1052E8EA19D766A60051D21F /* Build configuration list for PBXNativeTarget "FDTTests" */;
+			buildPhases = (
+				1052E8D919D766A60051D21F /* Sources */,
+				1052E8DA19D766A60051D21F /* Frameworks */,
+				1052E8DB19D766A60051D21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1052E8DF19D766A60051D21F /* PBXTargetDependency */,
+			);
+			name = FDTTests;
+			productName = FDTTests;
+			productReference = 1052E8DD19D766A60051D21F /* FDTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1052E8C019D766A60051D21F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = unet;
+				TargetAttributes = {
+					1052E8C719D766A60051D21F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1052E8DC19D766A60051D21F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1052E8C719D766A60051D21F;
+					};
+				};
+			};
+			buildConfigurationList = 1052E8C319D766A60051D21F /* Build configuration list for PBXProject "FDT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1052E8BF19D766A60051D21F;
+			productRefGroup = 1052E8C919D766A60051D21F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1052E8C719D766A60051D21F /* FDT */,
+				1052E8DC19D766A60051D21F /* FDTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1052E8C619D766A60051D21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E8D319D766A60051D21F /* Main.storyboard in Resources */,
+				1052E8D819D766A60051D21F /* LaunchScreen.xib in Resources */,
+				1052E8D519D766A60051D21F /* Images.xcassets in Resources */,
+				1052E91019D779E30051D21F /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1052E8DB19D766A60051D21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E91119D779E30051D21F /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1052E8C419D766A60051D21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E8D019D766A60051D21F /* ViewController.swift in Sources */,
+				1052E8CE19D766A60051D21F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1052E8D919D766A60051D21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1052E8E419D766A60051D21F /* FDTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1052E8DF19D766A60051D21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1052E8C719D766A60051D21F /* FDT */;
+			targetProxy = 1052E8DE19D766A60051D21F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1052E8D119D766A60051D21F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1052E8D219D766A60051D21F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1052E8D619D766A60051D21F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1052E8D719D766A60051D21F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1052E8E519D766A60051D21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1052E8E619D766A60051D21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1052E8E819D766A60051D21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = FDT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/Bridge-Header.h";
+=======
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/FDT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+>>>>>>> 0a89a4a8a476617a3a999b4242877f0d5f06b111
+			};
+			name = Debug;
+		};
+		1052E8E919D766A60051D21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = FDT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/Bridge-Header.h";
+=======
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/FDT-Bridging-Header.h";
+>>>>>>> 0a89a4a8a476617a3a999b4242877f0d5f06b111
+			};
+			name = Release;
+		};
+		1052E8EB19D766A60051D21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FDTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/FDTTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDT.app/FDT";
+			};
+			name = Debug;
+		};
+		1052E8EC19D766A60051D21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"/Users/henrytsai/Downloads/GoogleMaps-iOS-1.8.1",
+					"$(PROJECT_DIR)/lib/GoogleMaps-iOS-1.8.1",
+				);
+				INFOPLIST_FILE = FDTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FDT/FDTTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDT.app/FDT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1052E8C319D766A60051D21F /* Build configuration list for PBXProject "FDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1052E8E519D766A60051D21F /* Debug */,
+				1052E8E619D766A60051D21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1052E8E719D766A60051D21F /* Build configuration list for PBXNativeTarget "FDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1052E8E819D766A60051D21F /* Debug */,
+				1052E8E919D766A60051D21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1052E8EA19D766A60051D21F /* Build configuration list for PBXNativeTarget "FDTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1052E8EB19D766A60051D21F /* Debug */,
+				1052E8EC19D766A60051D21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1052E8C019D766A60051D21F /* Project object */;
+}
