@@ -29,6 +29,7 @@
 		1052E90E19D779D40051D21F /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1052E90C19D779D40051D21F /* GoogleMaps.framework */; };
 		1052E91019D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
 		1052E91119D779E30051D21F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1052E90F19D779E30051D21F /* GoogleMaps.bundle */; };
+		1052E91B19D78ACF0051D21F /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E91A19D78ACF0051D21F /* GoogleMapViewController.swift */; };
 		49D17AF019D77FDC00F33CD0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		1052E90F19D779E30051D21F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "lib/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
 		1052E91219D77E620051D21F /* FDT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDT-Bridging-Header.h"; sourceTree = "<group>"; };
 		1052E91319D77E620051D21F /* FDTTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FDTTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1052E91A19D78ACF0051D21F /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
 		49D17AEF19D77FDC00F33CD0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		1052E8CA19D766A60051D21F /* FDT */ = {
 			isa = PBXGroup;
 			children = (
+				1052E91A19D78ACF0051D21F /* GoogleMapViewController.swift */,
 				1052E90F19D779E30051D21F /* GoogleMaps.bundle */,
 				49A07C8D19D76D86001A39B7 /* Frameworks */,
 				1052E8CD19D766A60051D21F /* AppDelegate.swift */,
@@ -290,6 +293,7 @@
 			files = (
 				1052E8D019D766A60051D21F /* ViewController.swift in Sources */,
 				1052E8CE19D766A60051D21F /* AppDelegate.swift in Sources */,
+				1052E91B19D78ACF0051D21F /* GoogleMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
