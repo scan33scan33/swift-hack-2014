@@ -13,6 +13,8 @@
 		1052E8D519D766A60051D21F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D419D766A60051D21F /* Images.xcassets */; };
 		1052E8D819D766A60051D21F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D619D766A60051D21F /* LaunchScreen.xib */; };
 		1052E8E419D766A60051D21F /* FDTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8E319D766A60051D21F /* FDTTests.swift */; };
+		DA2A048019D79FE000459BF2 /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A047F19D79FE000459BF2 /* FoodTruck.swift */; };
+		DAD88EC919D78B6D0090902D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD88EC819D78B6D0090902D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1052E8DD19D766A60051D21F /* FDTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1052E8E219D766A60051D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1052E8E319D766A60051D21F /* FDTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTTests.swift; sourceTree = "<group>"; };
+		DA2A047F19D79FE000459BF2 /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		DAD88EC819D78B6D0090902D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				49A07C8D19D76D86001A39B7 /* Frameworks */,
 				1052E8CD19D766A60051D21F /* AppDelegate.swift */,
 				1052E8CF19D766A60051D21F /* ViewController.swift */,
+				DAD88EC819D78B6D0090902D /* TableViewController.swift */,
+				DA2A047F19D79FE000459BF2 /* FoodTruck.swift */,
 				1052E8D119D766A60051D21F /* Main.storyboard */,
 				1052E8D419D766A60051D21F /* Images.xcassets */,
 				1052E8D619D766A60051D21F /* LaunchScreen.xib */,
@@ -221,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1052E8D019D766A60051D21F /* ViewController.swift in Sources */,
+				DAD88EC919D78B6D0090902D /* TableViewController.swift in Sources */,
 				1052E8CE19D766A60051D21F /* AppDelegate.swift in Sources */,
+				DA2A048019D79FE000459BF2 /* FoodTruck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

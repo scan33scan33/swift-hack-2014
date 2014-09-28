@@ -6,4 +6,7 @@
 //  Copyright (c) 2014 unet. All rights reserved.
 //
 
-import Foundation
+struct FoodTruck {
+    let name: String;
+    let category: String;
+}
