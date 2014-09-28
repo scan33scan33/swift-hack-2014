@@ -18,17 +18,16 @@ class ViewController: UIViewController, FBLoginViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         self.fbLoginView.delegate = self
         self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
-
     }
     
     // Facebook Delegate Method
+    func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser){
+        println("User Name: \(user.name)")
+    }
+    
     func loginViewShowingLoggedInUser(loginView : FBLoginView!) {
         println("User Logged In")
         println("Add redirection to another view")
-    }
-    
-    func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser){
-        println("User Name: \(user.name)")
     }
     
     func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
