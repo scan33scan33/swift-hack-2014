@@ -765,6 +765,23 @@ San Francisco CA </string>
             </objects>
             <point key="canvasLocation" x="686" y="87"/>
         </scene>
+        <!--Google Map View Controller-->
+        <scene sceneID="D7J-9B-hB4">
+            <objects>
+                <viewController id="vE8-hn-cx3" customClass="GoogleMapViewController" customModule="FDT" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e7B-tu-tOM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tzX-Fe-ghn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kkV-5Q-6ue">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bx6-X0-5zD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Wj9-BX-JAP">
             <objects>

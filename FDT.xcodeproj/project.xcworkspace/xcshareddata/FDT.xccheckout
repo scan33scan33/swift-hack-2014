@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0213EC47659F44540282B72AA47B93029B4595BF</key>
-		<string>../../../iphone-snippets</string>
+		<string>../../../..</string>
 		<key>CF5582278C304DC7051DDBF2266E45976314CF62</key>
 		<string>../..</string>
 	</dict>
@@ -38,7 +38,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0213EC47659F44540282B72AA47B93029B4595BF</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iphone-snippets</string>
+			<string>..</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -46,7 +46,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>CF5582278C304DC7051DDBF2266E45976314CF62</string>
 			<key>IDESourceControlWCCName</key>
-			<string>swift-hack-2014</string>
+			<string>FDT</string>
 		</dict>
 	</array>
 </dict>
