@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361p" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Iud-Ps-5dK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6246" systemVersion="14A361p" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JnF-YC-N20">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6239"/>
     </dependencies>
@@ -347,7 +347,7 @@ Taco Truck</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tr-eL-vcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="219.5" y="-1451.5"/>
+            <point key="canvasLocation" x="-166.5" y="-1395.5"/>
         </scene>
         <!--Streat-->
         <scene sceneID="77s-QF-CHo">
@@ -403,7 +403,7 @@ Taco Truck</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mk0-Nt-KzK">
-                                                    <rect key="frame" x="243" y="8" width="99" height="21"/>
+                                                    <rect key="frame" x="218" y="8" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -450,7 +450,7 @@ Taco Truck</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wv0-da-Vga">
-                                                    <rect key="frame" x="243" y="8" width="99" height="21"/>
+                                                    <rect key="frame" x="218" y="8" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -497,7 +497,7 @@ Taco Truck</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXz-zL-Aj9">
-                                                    <rect key="frame" x="243" y="7" width="99" height="21"/>
+                                                    <rect key="frame" x="218" y="7" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -554,7 +554,7 @@ Taco Truck</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ob-d8-cdV">
-                                                    <rect key="frame" x="243" y="8" width="99" height="21"/>
+                                                    <rect key="frame" x="218" y="8" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -598,7 +598,7 @@ Taco Truck</string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 mins" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a13-PD-DeS">
-                                                    <rect key="frame" x="243" y="17" width="99" height="21"/>
+                                                    <rect key="frame" x="218" y="17" width="99" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -642,13 +642,13 @@ Taco Truck</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taco Truck" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGb-fR-AZa">
-                                <rect key="frame" x="55" y="391" width="83" height="21"/>
+                                <rect key="frame" x="55" y="411" width="83" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSQ-G3-IrD">
-                                <rect key="frame" x="55" y="433" width="346" height="21"/>
+                                <rect key="frame" x="55" y="453" width="346" height="21"/>
                                 <string key="text">298 Spear St, San Francisco CA
 San Francisco CA </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -656,19 +656,19 @@ San Francisco CA </string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car.png" translatesAutoresizingMaskIntoConstraints="NO" id="U1v-te-iZ4">
-                                <rect key="frame" x="16" y="393" width="25" height="19"/>
+                                <rect key="frame" x="16" y="413" width="25" height="19"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sunday Off" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzn-v3-ZHg">
-                                <rect key="frame" x="55" y="476" width="346" height="21"/>
+                                <rect key="frame" x="55" y="496" width="346" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile.png" translatesAutoresizingMaskIntoConstraints="NO" id="SAI-8K-efW">
-                                <rect key="frame" x="16" y="313" width="101" height="41"/>
+                                <rect key="frame" x="16" y="333" width="101" height="41"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="James, Molly has been here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9Q-Ww-XCJ">
-                                <rect key="frame" x="137" y="323" width="346" height="21"/>
+                                <rect key="frame" x="137" y="343" width="346" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -686,10 +686,11 @@ San Francisco CA </string>
             </objects>
             <point key="canvasLocation" x="1674.5" y="-1461.5"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--List-->
         <scene sceneID="Can-LR-Gyg">
             <objects>
                 <navigationController id="Iud-Ps-5dK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="List" image="list.png" id="ix9-Q7-9p4"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eYt-8l-rc5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -765,7 +766,27 @@ San Francisco CA </string>
             </objects>
             <point key="canvasLocation" x="686" y="87"/>
         </scene>
-        <!--Google Map View Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="tLn-iV-pFt">
+            <objects>
+                <tabBarController id="JnF-YC-N20" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oSv-jz-aI1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Iud-Ps-5dK" kind="relationship" relationship="viewControllers" id="IWE-OH-yHn"/>
+                        <segue destination="vE8-hn-cx3" kind="relationship" relationship="viewControllers" id="xZH-Ze-v7s"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPf-I9-bxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="-2210"/>
+        </scene>
+        <!--Map-->
         <scene sceneID="D7J-9B-hB4">
             <objects>
                 <viewController id="vE8-hn-cx3" customClass="GoogleMapViewController" customModule="FDT" customModuleProvider="target" sceneMemberID="viewController">
@@ -774,10 +795,12 @@ San Francisco CA </string>
                         <viewControllerLayoutGuide type="bottom" id="tzX-Fe-ghn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kkV-5Q-6ue">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="location.png" id="rUK-Ha-zYQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bx6-X0-5zD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -804,6 +827,8 @@ San Francisco CA </string>
         <image name="bacon.jpeg" width="281" height="179"/>
         <image name="car.png" width="30" height="23"/>
         <image name="heart.png" width="40" height="36"/>
+        <image name="list.png" width="50" height="39"/>
+        <image name="location.png" width="50" height="39"/>
         <image name="los.jpg" width="350" height="263"/>
         <image name="off.jpeg" width="260" height="194"/>
         <image name="profile.png" width="80" height="32"/>

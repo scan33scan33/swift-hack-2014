@@ -9,6 +9,23 @@
 import Foundation
 import UIKit
 
+let lat_array:[Double] = [37.7901196, 37.7697686, 37.801041, 37.7670627, 37.7697686] //, 37.8201487]
+let long_array:[Double] = [-122.3910198, -122.4120492, -122.457767, -122.4466616] //, -122.3689871]
+let nloc = 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class GoogleMapViewController: UIViewController {
     var mapView:GMSMapView!
 
@@ -30,11 +47,9 @@ class GoogleMapViewController: UIViewController {
     marker.opacity = 0.4
     marker.map = mapView;
     
-    let lat_array:[Double] = [37.7901196, 37.7697686, 37.801041, 37.7670627, 37.7697686] //, 37.8201487]
-    let long_array:[Double] = [-122.3910198, -122.4120492, -122.457767, -122.4466616] //, -122.3689871]
 
 
-    for i in 0...3 {
+    for i in 0...nloc {
         var marker:GMSMarker = GMSMarker();
         marker.position = CLLocationCoordinate2DMake(lat_array[i], long_array[i]);
         // marker1.title = "San Francisco";
