@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB8EB6819D7A86800FC364D /* sweettreats-food-truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB6719D7A86800FC364D /* sweettreats-food-truck.jpg */; };
+		0AB8EB6A19D7A94F00FC364D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB6919D7A94F00FC364D /* profile.png */; };
+		0AB8EB6E19D7AD5300FC364D /* off.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB6B19D7AD5300FC364D /* off.jpeg */; };
+		0AB8EB6F19D7AD5300FC364D /* senor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB6C19D7AD5300FC364D /* senor.jpeg */; };
+		0AB8EB7019D7AD5300FC364D /* los.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB6D19D7AD5300FC364D /* los.jpg */; };
+		0AB8EB7219D7AE4600FC364D /* bacon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB7119D7AE4600FC364D /* bacon.jpeg */; };
+		0AB8EB7419D7AE8000FC364D /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB7319D7AE8000FC364D /* heart.png */; };
+		0AB8EB7619D7B10700FC364D /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8EB7519D7B10700FC364D /* car.png */; };
 		1052E8CE19D766A60051D21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8CD19D766A60051D21F /* AppDelegate.swift */; };
 		1052E8D019D766A60051D21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052E8CF19D766A60051D21F /* ViewController.swift */; };
 		1052E8D319D766A60051D21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1052E8D119D766A60051D21F /* Main.storyboard */; };
@@ -43,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB8EB6719D7A86800FC364D /* sweettreats-food-truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sweettreats-food-truck.jpg"; sourceTree = "<group>"; };
+		0AB8EB6919D7A94F00FC364D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		0AB8EB6B19D7AD5300FC364D /* off.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = off.jpeg; sourceTree = "<group>"; };
+		0AB8EB6C19D7AD5300FC364D /* senor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = senor.jpeg; sourceTree = "<group>"; };
+		0AB8EB6D19D7AD5300FC364D /* los.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = los.jpg; sourceTree = "<group>"; };
+		0AB8EB7119D7AE4600FC364D /* bacon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bacon.jpeg; sourceTree = "<group>"; };
+		0AB8EB7319D7AE8000FC364D /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		0AB8EB7519D7B10700FC364D /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		1052E8C819D766A60051D21F /* FDT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1052E8CC19D766A60051D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1052E8CD19D766A60051D21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +159,14 @@
 		1052E8CB19D766A60051D21F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AB8EB6B19D7AD5300FC364D /* off.jpeg */,
+				0AB8EB7319D7AE8000FC364D /* heart.png */,
+				0AB8EB6C19D7AD5300FC364D /* senor.jpeg */,
+				0AB8EB7519D7B10700FC364D /* car.png */,
+				0AB8EB6D19D7AD5300FC364D /* los.jpg */,
+				0AB8EB7119D7AE4600FC364D /* bacon.jpeg */,
+				0AB8EB6719D7A86800FC364D /* sweettreats-food-truck.jpg */,
+				0AB8EB6919D7A94F00FC364D /* profile.png */,
 				1052E8CC19D766A60051D21F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -266,10 +290,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB8EB7619D7B10700FC364D /* car.png in Resources */,
 				1052E8D319D766A60051D21F /* Main.storyboard in Resources */,
+				0AB8EB7419D7AE8000FC364D /* heart.png in Resources */,
+				0AB8EB6F19D7AD5300FC364D /* senor.jpeg in Resources */,
+				0AB8EB6A19D7A94F00FC364D /* profile.png in Resources */,
 				1052E8D819D766A60051D21F /* LaunchScreen.xib in Resources */,
+				0AB8EB6E19D7AD5300FC364D /* off.jpeg in Resources */,
+				0AB8EB6819D7A86800FC364D /* sweettreats-food-truck.jpg in Resources */,
 				1052E8D519D766A60051D21F /* Images.xcassets in Resources */,
+				0AB8EB7019D7AD5300FC364D /* los.jpg in Resources */,
 				1052E91019D779E30051D21F /* GoogleMaps.bundle in Resources */,
+				0AB8EB7219D7AE4600FC364D /* bacon.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
